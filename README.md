@@ -20,4 +20,4 @@
 ## EXPERIMENT 7
   SELECT with various clause - GROUP BY, ORDER BY , HAVING .(https://github.com/Raghu1426/DBMS_192111272/blob/main/experiment%207.txt)
 ## EXPERIMENT 8
-  SUBQURIES AND CORELETAED QUERY-
+  SUBQURIES AND CORELETAED QUERY-(https://github.com/Raghu1426/DBMS_192111272/blob/main/experiment%208.txt).
