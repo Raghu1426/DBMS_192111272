@@ -16,4 +16,6 @@
 ## EXPERIMENT 5
   SELECT with various clause - WHERE, pattern matching(https://github.com/Raghu1426/DBMS_192111272/blob/main/experiment%205.txt).
 ## EXPERIMENT 6
-  SELECT with various clause - GROUP BY, ORDER BY , HAVING.()
+  SELECT with various clause - BETWEEM, IN, Aggregate function .(https://github.com/Raghu1426/DBMS_192111272/blob/main/experiment%206.txt)
+## EXPERIMENT 7
+  SELECT with various clause - GROUP BY, ORDER BY , HAVING .()
