@@ -12,4 +12,6 @@
 ## EXPERIMENT 4
   DML COMMANDS
   Update - (https://github.com/Raghu1426/DBMS_192111272/blob/main/dml(update).txt)
-  Delete - ()
+  Delete - (https://github.com/Raghu1426/DBMS_192111272/blob/main/dml(delete).txt)
+## EXPERIMENT 5
+  SELECT with various clause - WHERE, pattern matching
