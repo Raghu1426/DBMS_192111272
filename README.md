@@ -23,4 +23,7 @@
   SUBQURIES AND CORELETAED QUERY-(https://github.com/Raghu1426/DBMS_192111272/blob/main/experiment%208.txt).
 ## EXPERIMENT 9
 JOINS-(equijoin,Inner join ,Outer join)
+(https://github.com/Raghu1426/DBMS_192111272/blob/main/experiment%209.txt)
+## EXPERINMENT 10
+(view , index, sequence )
 ()
