@@ -18,4 +18,4 @@
 ## EXPERIMENT 6
   SELECT with various clause - BETWEEM, IN, Aggregate function .(https://github.com/Raghu1426/DBMS_192111272/blob/main/experiment%206.txt)
 ## EXPERIMENT 7
-  SELECT with various clause - GROUP BY, ORDER BY , HAVING .()
+  SELECT with various clause - GROUP BY, ORDER BY , HAVING .(https://github.com/Raghu1426/DBMS_192111272/blob/main/experiment%207.txt)
