@@ -14,4 +14,6 @@
   Update - (https://github.com/Raghu1426/DBMS_192111272/blob/main/dml(update).txt)
   Delete - (https://github.com/Raghu1426/DBMS_192111272/blob/main/dml(delete).txt)
 ## EXPERIMENT 5
-  SELECT with various clause - WHERE, pattern matching
+  SELECT with various clause - WHERE, pattern matching(https://github.com/Raghu1426/DBMS_192111272/blob/main/experiment%205.txt).
+## EXPERIMENT 6
+  SELECT with various clause - GROUP BY, ORDER BY , HAVING.()
