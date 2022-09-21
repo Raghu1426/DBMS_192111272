@@ -11,4 +11,5 @@
   Select - (https://github.com/Raghu1426/DBMS_192111272/blob/main/dml%20(select).txt).
 ## EXPERIMENT 4
   DML COMMANDS
-  Update - ()
+  Update - (https://github.com/Raghu1426/DBMS_192111272/blob/main/dml(update).txt)
+  Delete - ()
