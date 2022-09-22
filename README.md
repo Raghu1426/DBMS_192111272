@@ -27,3 +27,19 @@ JOINS-(equijoin,Inner join ,Outer join)
 ## EXPERINMENT 10
 (view , index, sequence )
 (https://github.com/Raghu1426/DBMS_192111272/blob/main/experiment%2010.txt)
+## EXPERIMENT 13
+(TCL COMMANDS - Commit,Rollback,Savepoint)_()
+## EXPERIMENT 19
+## EXPERIMENT 21
+## EXPERIMENT 22
+(Case Scenario SQL Queries Implementation for Book Publishing Company)
+()
+##  EXPERIMENT 23
+(Case Scenario SQL Queries Implementation for General Hospital)
+()
+## EXPERIMENT 24
+(Case Scenario SQL Queries Implementation for Car Rental Company)
+()
+## EXPERIMENT 25
+(Case Scenario SQL Queries Implementation for Student Progress Monitoring System)
+()
