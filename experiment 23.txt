@@ -1,0 +1,119 @@
+mysql> create table patients(p_id int(5),patient_name char(20),disease char(20),tests char(20),phoneno int(15));
+Query OK, 0 rows affected (0.08 sec)
+
+mysql> desc patients;
++--------------+----------+------+-----+---------+-------+
+| Field        | Type     | Null | Key | Default | Extra |
++--------------+----------+------+-----+---------+-------+
+| p_id         | int(5)   | YES  |     | NULL    |       |
+| patient_name | char(20) | YES  |     | NULL    |       |
+| disease      | char(20) | YES  |     | NULL    |       |
+| tests        | char(20) | YES  |     | NULL    |       |
+| phoneno      | int(15)  | YES  |     | NULL    |       |
++--------------+----------+------+-----+---------+-------+
+5 rows in set (0.00 sec)
+
+mysql> insert into patients values(12,'mahesh','fever','bloodtest',1445236982),(23,'teja','cough','bloodtest',475862),(54,'vinay','kidney_failure','---',514
+786);
+Query OK, 3 rows affected (0.03 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+
+mysql> select * from patients;
++------+--------------+----------------+-----------+------------+
+| p_id | patient_name | disease        | tests     | phoneno    |
++------+--------------+----------------+-----------+------------+
+|   12 | mahesh       | fever          | bloodtest | 1445236982 |
+|   23 | teja         | cough          | bloodtest |     475862 |
+|   54 | vinay        | kidney_failure | ---       |     514786 |
++------+--------------+----------------+-----------+------------+
+3 rows in set (0.00 sec)
+
+mysql> create table doctors(id int,name char,specialin char,phone int);
+Query OK, 0 rows affected (0.09 sec)
+
+mysql> desc doctors;
++-----------+---------+------+-----+---------+-------+
+| Field     | Type    | Null | Key | Default | Extra |
++-----------+---------+------+-----+---------+-------+
+| id        | int(11) | YES  |     | NULL    |       |
+| name      | char(1) | YES  |     | NULL    |       |
+| specialin | char(1) | YES  |     | NULL    |       |
+| phone     | int(11) | YES  |     | NULL    |       |
++-----------+---------+------+-----+---------+-------+
+4 rows in set (0.00 sec)
+
+mysql> alter table doctors add primary key(id);
+Query OK, 0 rows affected (0.14 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> desc doctors;
++-----------+---------+------+-----+---------+-------+
+| Field     | Type    | Null | Key | Default | Extra |
++-----------+---------+------+-----+---------+-------+
+| id        | int(11) | NO   | PRI | 0       |       |
+| name      | char(1) | YES  |     | NULL    |       |
+| specialin | char(1) | YES  |     | NULL    |       |
+| phone     | int(11) | YES  |     | NULL    |       |
++-----------+---------+------+-----+---------+-------+
+4 rows in set (0.01 sec)
+
+mysql> insert into doctors values(34,'a','n',91821),(54,'e','d',54944),(27,'g','r',35464);
+Query OK, 3 rows affected (0.05 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+
+mysql> select * from doctors;
++----+------+-----------+-------+
+| id | name | specialin | phone |
++----+------+-----------+-------+
+| 27 | g    | r         | 35464 |
+| 34 | a    | n         | 91821 |
+| 54 | e    | d         | 54944 |
++----+------+-----------+-------+
+3 rows in set (0.00 sec)
+
+mysql> select id,name from doctors;
++----+------+
+| id | name |
++----+------+
+| 27 | g    |
+| 34 | a    |
+| 54 | e    |
++----+------+
+3 rows in set (0.00 sec)
+
+mysql> select count(name)from doctors;
++-------------+
+| count(name) |
++-------------+
+|           3 |
++-------------+
+1 row in set (0.00 sec)
+
+mysql> select * from patients
+    -> where disease='fever';
++------+--------------+---------+-----------+------------+
+| p_id | patient_name | disease | tests     | phoneno    |
++------+--------------+---------+-----------+------------+
+|   12 | mahesh       | fever   | bloodtest | 1445236982 |
++------+--------------+---------+-----------+------------+
+1 row in set (0.00 sec)
+
+mysql> select patient_name,disease from patients;
++--------------+----------------+
+| patient_name | disease        |
++--------------+----------------+
+| mahesh       | fever          |
+| teja         | cough          |
+| vinay        | kidney_failure |
++--------------+----------------+
+3 rows in set (0.00 sec)
+
+mysql> select id,phone from doctors;
++----+-------+
+| id | phone |
++----+-------+
+| 27 | 35464 |
+| 34 | 91821 |
+| 54 | 54944 |
++----+-------+
+3 rows in set (0.00 sec)
