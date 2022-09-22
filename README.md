@@ -41,7 +41,7 @@ JOINS-(equijoin,Inner join ,Outer join)
 (https://github.com/Raghu1426/DBMS_192111272/blob/main/experiment%2023.txt)
 ## EXPERIMENT 24
 (Case Scenario SQL Queries Implementation for Car Rental Company)
-()
+(https://github.com/Raghu1426/DBMS_192111272/blob/main/experiment%2024.txt)
 ## EXPERIMENT 25
 (Case Scenario SQL Queries Implementation for Student Progress Monitoring System)
 ()
