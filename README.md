@@ -30,6 +30,7 @@ JOINS-(equijoin,Inner join ,Outer join)
 ## EXPERIMENT 13
 (TCL COMMANDS - Commit,Rollback,Savepoint)_()
 ## EXPERIMENT 19
+(https://github.com/Raghu1426/DBMS_192111272/blob/main/experiment%2019.txt)
 ## EXPERIMENT 21
 ## EXPERIMENT 22
 (Case Scenario SQL Queries Implementation for Book Publishing Company)
