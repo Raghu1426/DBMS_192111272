@@ -27,6 +27,9 @@ JOINS-(equijoin,Inner join ,Outer join)
 ## EXPERINMENT 10
 (view , index, sequence )
 (https://github.com/Raghu1426/DBMS_192111272/blob/main/experiment%2010.txt)
+## EXPERIMENT 11
+(Simple programming exercises using CASE, IF, ITERATE, LEAVE, LOOP)
+(
 ## EXPERIMENT 13
 (TCL COMMANDS - Commit,Rollback,Savepoint)_(https://github.com/Raghu1426/DBMS_192111272/blob/main/experiment%2013.txt)
 ## EXPERIMENT 19
