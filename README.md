@@ -37,7 +37,7 @@ JOINS-(equijoin,Inner join ,Outer join)
 (TCL COMMANDS -Commit,Rollback,Savepoint)_(https://github.com/Raghu1426/DBMS_192111272/blob/main/experiment%2013.txt)
 ## EXPERIMENT 14
 (DCL Commands – GRANT, REVOKE)
-()
+(https://github.com/Raghu1426/DBMS_192111272/blob/main/grant%20and%20revoke.txt)
 ## EXPERIMENT 15
 (High level programming extensions - procedures)
 (https://github.com/Raghu1426/DBMS_192111272/blob/main/experiment%2015.txt)
