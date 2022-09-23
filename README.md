@@ -34,7 +34,7 @@ JOINS-(equijoin,Inner join ,Outer join)
 (Simple programming exercises using WHILE)
 ()
 ## EXPERIMENT 13
-(TCL COMMANDS -Commit,Rollback,Savepoint)_(https://github.com/Raghu1426/DBMS_192111272/blob/main/experiment%2013.txt)
+(TCL COMMANDS -Savepoint)_(https://github.com/Raghu1426/DBMS_192111272/blob/main/savepoint.txt)
 ## EXPERIMENT 14
 (DCL Commands – GRANT, REVOKE)
 (https://github.com/Raghu1426/DBMS_192111272/blob/main/grant%20and%20revoke.txt)
