@@ -40,7 +40,7 @@ JOINS-(equijoin,Inner join ,Outer join)
 (https://github.com/Raghu1426/DBMS_192111272/blob/main/grant%20and%20revoke.txt)
 ## EXPERIMENT 15
 (High level programming extensions - procedures)
-(https://github.com/Raghu1426/DBMS_192111272/blob/main/experiment%2015.txt)
+(https://github.com/Raghu1426/DBMS_192111272/blob/main/procedure.....txt)
 ## EXPERIMENT 16
 (High Level Programming Extensions - Fuctions)
 ()
