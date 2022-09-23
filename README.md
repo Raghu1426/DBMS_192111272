@@ -30,9 +30,30 @@ JOINS-(equijoin,Inner join ,Outer join)
 ## EXPERIMENT 11
 (Simple programming exercises using CASE, IF, ITERATE, LEAVE, LOOP)
 (
+## EXPERIMENT 12
+(Simple programming exercises using WHILE)
+()
 ## EXPERIMENT 13
-(TCL COMMANDS - Commit,Rollback,Savepoint)_(https://github.com/Raghu1426/DBMS_192111272/blob/main/experiment%2013.txt)
+(TCL COMMANDS -Commit,Rollback,Savepoint)_(https://github.com/Raghu1426/DBMS_192111272/blob/main/experiment%2013.txt)
+## EXPERIMENT 14
+(DCL Commands – GRANT, REVOKE)
+()
+## EXPERIMENT 15
+(High level programming extensions - procedures)
+()
+## EXPERIMENT 16
+(High Level Programming Extensions - Fuctions)
+()
+## EXPERIMENT 17
+(SQL String Fuctions- Repeat,Replicate)
+()
+## EXPERIMENT 18
+(TCL Commands- COMMIT,ROLLBACK)
+()
 ## EXPERIMENT 19
+(Database connectivity-using simple mysql)
+()
+## EXPERIMENT 20
 (https://github.com/Raghu1426/DBMS_192111272/blob/main/experiment%2019.txt)
 ## EXPERIMENT 21
 (https://github.com/Raghu1426/DBMS_192111272/blob/main/experiment%2021.txt)
