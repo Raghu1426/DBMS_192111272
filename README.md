@@ -49,7 +49,7 @@ JOINS-(equijoin,Inner join ,Outer join)
 (https://github.com/Raghu1426/DBMS_192111272/blob/main/Experiment%2017)
 ## EXPERIMENT 18
 (TCL Commands- COMMIT,ROLLBACK)
-()
+(https://github.com/Raghu1426/DBMS_192111272/blob/main/experiment%2013.txt)
 ## EXPERIMENT 19
 (Database connectivity-using simple mysql)
 ()
