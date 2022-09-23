@@ -29,7 +29,7 @@ JOINS-(equijoin,Inner join ,Outer join)
 (https://github.com/Raghu1426/DBMS_192111272/blob/main/experiment%2010.txt)
 ## EXPERIMENT 11
 (Simple programming exercises using CASE, IF, ITERATE, LEAVE, LOOP)
-(
+(https://github.com/Raghu1426/DBMS_192111272/blob/main/experiment%2011.txt)
 ## EXPERIMENT 12
 (Simple programming exercises using WHILE)
 ()
