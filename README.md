@@ -46,7 +46,7 @@ JOINS-(equijoin,Inner join ,Outer join)
 ()
 ## EXPERIMENT 17
 (SQL String Fuctions- Repeat,Replicate)
-()
+(https://github.com/Raghu1426/DBMS_192111272/blob/main/Experiment%2017)
 ## EXPERIMENT 18
 (TCL Commands- COMMIT,ROLLBACK)
 ()
