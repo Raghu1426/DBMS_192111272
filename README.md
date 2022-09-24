@@ -52,7 +52,7 @@ JOINS-(equijoin,Inner join ,Outer join)
 (https://github.com/Raghu1426/DBMS_192111272/blob/main/experiment%2013.txt)
 ## EXPERIMENT 19
 (Database connectivity-using simple mysql)
-()
+(https://github.com/Raghu1426/DBMS_192111272/blob/main/Screenshot%20(211).png)
 ## EXPERIMENT 20
 (https://github.com/Raghu1426/DBMS_192111272/blob/main/experiment%2019.txt)
 ## EXPERIMENT 21
