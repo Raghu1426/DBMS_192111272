@@ -1,10 +1,10 @@
 # DBMS_192111272
 ## EXPERIMENT 1
   DDL COMMANDS
-  (Create,Alter,Drop)
+  (Create,Alter,Drop)-(https://github.com/Raghu1426/DBMS_192111272/blob/main/experiment%201.txt)
 ## EXPERIMENT 2
   DDl COMMANDS with Constraints.
-  (Primary key, Foreign key, Unique, Check)
+  (Primary key, Foreign key, Unique, Check)-(https://github.com/Raghu1426/DBMS_192111272/blob/main/experiment%202.txt)
 ## EXPERIMENT 3
   DML COMMANDS
   Insert - (https://github.com/Raghu1426/DBMS_192111272/blob/main/dml%20(insert%20into).txt).
