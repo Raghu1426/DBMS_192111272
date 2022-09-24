@@ -1,0 +1,58 @@
+mysql> desc actor;
++-------------------+----------+------+-----+---------+-------+
+| Field             | Type     | Null | Key | Default | Extra |
++-------------------+----------+------+-----+---------+-------+
+| actor_rank        | int(10)  | YES  |     | NULL    |       |
+| actor_name        | char(20) | YES  |     | NULL    |       |
+| actor_gender      | char(2)  | YES  |     | NULL    |       |
+| actor_role        | char(20) | YES  |     | NULL    |       |
+| actor_moviesacted | int(60)  | YES  |     | NULL    |       |
++-------------------+----------+------+-----+---------+-------+
+5 rows in set (0.04 sec)
+mysql> alter table actor add primary key(actor_name);
+Query OK, 0 rows affected (0.19 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+mysql> desc actor;
++-------------------+----------+------+-----+---------+-------+
+| Field             | Type     | Null | Key | Default | Extra |
++-------------------+----------+------+-----+---------+-------+
+| actor_rank        | int(10)  | YES  |     | NULL    |       |
+| actor_name        | char(20) | NO   | PRI |         |       |
+| actor_gender      | char(2)  | YES  |     | NULL    |       |
+| actor_role        | char(20) | YES  |     | NULL    |       |
+| actor_moviesacted | int(60)  | YES  |     | NULL    |       |
++-------------------+----------+------+-----+---------+-------+
+5 rows in set (0.07 sec)
+mysql> use sridhar;
+Database changed
+mysql> desc persons;
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| personid    | int(11)     | NO   | PRI | NULL    |       |
+| person_name | varchar(30) | YES  |     | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+2 rows in set (0.06 sec)
+mysql> CREATE TABLE Orders(OrderID int NOT NULL,OrderNumber int NOT NULL, PersonID int, PRIMARY KEY (OrderID),FOREIGN KEY (PersonID) REFERENCES Persons(PersonID));
+Query OK, 0 rows affected (0.10 sec)
+mysql> desc orders;
++-------------+---------+------+-----+---------+-------+
+| Field       | Type    | Null | Key | Default | Extra |
++-------------+---------+------+-----+---------+-------+
+| OrderID     | int(11) | NO   | PRI | NULL    |       |
+| OrderNumber | int(11) | NO   |     | NULL    |       |
+| PersonID    | int(11) | YES  | MUL | NULL    |       |
++-------------+---------+------+-----+---------+-------+
+3 rows in set (0.01 sec)
+mysql> alter table orders add unique(orderNumber);
+Query OK, 0 rows affected (0.14 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+mysql> desc orders;
++-------------+---------+------+-----+---------+-------+
+| Field       | Type    | Null | Key | Default | Extra |
++-------------+---------+------+-----+---------+-------+
+| OrderID     | int(11) | NO   | PRI | NULL    |       |
+| OrderNumber | int(11) | NO   | UNI | NULL    |       |
+| PersonID    | int(11) | YES  | MUL | NULL    |       |
++-------------+---------+------+-----+---------+-------+
+3 rows in set (0.02 sec)

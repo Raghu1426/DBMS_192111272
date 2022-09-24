@@ -1,0 +1,53 @@
+mysql> CREATE TABLE Student
+    -> (Std_ID int(5),
+    -> std_Name char(20),
+    -> Gender char(5),
+    -> Phone int(15),
+    -> DOB date,
+    -> Department char(20));
+Query OK, 0 rows affected (0.11 sec)
+mysql> desc Student;
++------------+----------+------+-----+---------+-------+
+| Field      | Type     | Null | Key | Default | Extra |
++------------+----------+------+-----+---------+-------+
+| Std_ID     | int(5)   | YES  |     | NULL    |       |
+| std_Name   | char(20) | YES  |     | NULL    |       |
+| Gender     | char(5)  | YES  |     | NULL    |       |
+| Phone      | int(15)  | YES  |     | NULL    |       |
+| DOB        | date     | YES  |     | NULL    |       |
+| Department | char(20) | YES  |     | NULL    |       |
++------------+----------+------+-----+---------+-------+
+6 rows in set (0.01 sec)
+mysql> ALTER TABLE Student
+    -> ADD COLUMN Year int(5);
+Query OK, 0 rows affected (0.15 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+mysql> desc Student;
++------------+----------+------+-----+---------+-------+
+| Field      | Type     | Null | Key | Default | Extra |
++------------+----------+------+-----+---------+-------+
+| Std_ID     | int(5)   | YES  |     | NULL    |       |
+| std_Name   | char(20) | YES  |     | NULL    |       |
+| Gender     | char(5)  | YES  |     | NULL    |       |
+| Phone      | int(15)  | YES  |     | NULL    |       |
+| DOB        | date     | YES  |     | NULL    |       |
+| Department | char(20) | YES  |     | NULL    |       |
+| Year       | int(5)   | YES  |     | NULL    |       |
++------------+----------+------+-----+---------+-------+
+7 rows in set (0.02 sec)
+mysql> ALTER TABLE Student
+    -> DROP COLUMN Department;
+Query OK, 0 rows affected (0.14 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+mysql> desc Student;
++----------+----------+------+-----+---------+-------+
+| Field    | Type     | Null | Key | Default | Extra |
++----------+----------+------+-----+---------+-------+
+| Std_ID   | int(5)   | YES  |     | NULL    |       |
+| std_Name | char(20) | YES  |     | NULL    |       |
+| Gender   | char(5)  | YES  |     | NULL    |       |
+| Phone    | int(15)  | YES  |     | NULL    |       |
+| DOB      | date     | YES  |     | NULL    |       |
+| Year     | int(5)   | YES  |     | NULL    |       |
++----------+----------+------+-----+---------+-------+
+6 rows in set (0.01 sec)
