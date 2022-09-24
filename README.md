@@ -32,7 +32,7 @@ JOINS-(equijoin,Inner join ,Outer join)
 (https://github.com/Raghu1426/DBMS_192111272/blob/main/experiment%2011.txt)
 ## EXPERIMENT 12
 (Simple programming exercises using WHILE)
-()
+(https://github.com/Raghu1426/DBMS_192111272/blob/main/while%20loop.txt)
 ## EXPERIMENT 13
 (TCL COMMANDS -Savepoint)_(https://github.com/Raghu1426/DBMS_192111272/blob/main/savepoint.txt)
 ## EXPERIMENT 14
